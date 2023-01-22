@@ -1,0 +1,51 @@
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul {
+    background-color: #2b2d42;
+    list-style: none;
+    display: flex;
+    height: 50px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+
+}
+li a {
+    color: #ffffffff;
+    padding: 10px;
+    margin: 10 10px;
+}
+.about_us {
+    font-size: 2vmin;
+    font-weight: 200;
+    font-family: cursive;
+    color: rgb(90, 105, 34);
+    margin-bottom: 10px;
+}
+div > img {
+    max-width: 100%;
+    height: auto;
+}
+.hour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 40px;
+}
+
+footer {
+    display: flex;
+    margin-top: 40px;
+}
+footer div {
+    flex: 1;
+    font-size: 100%;
+}
+
